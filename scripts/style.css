@@ -36,35 +36,30 @@ body{
         padding-bottom: 2px;
         list-style: none;
     }
-
+    
     nav li{
         display: inline-block;
-        margin-left: 70px;
         padding-top: 10px;
+        flex-direction: row;
+        margin-top: 10px;
 
         position: relative;
     }
 
-    nav a{
-        color: black;
-        text-decoration: none;
-        text-transform: uppercase;
 
-        content: '';
-        display: block;
+    #Tab a:hover{
+        background-color: #0f3ecd;
+    }
+
+    #Tab a{
         width: 100%;
-        background-color: #1845cc;
-        padding: 20px 40px 1px 40px;
-
-        transition: all ease-in-out 1s;
-    }
-
-    nav a:hover{
-        color:#041445;
-        background-color:#132d7b;
-
+        padding: 12px 55px 11px 55px;
+        text-decoration: none;
         
+        transition: all ease-in-out 500ms;
     }
+
+
 
     
 
